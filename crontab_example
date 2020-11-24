@@ -1,0 +1,4 @@
+0 22 * * sun-thu /home/pi/block.sh #start blocking @ 10 pm
+0 11 * * mon-fri /home/pi/remove.sh #unblock during lunch
+0 13 * * mon-fri /home/pi/block.sh #block when lunch is over
+0 15 * * mon-fri /home/pi/remove.sh #unblock at 3 in the afternoon
